@@ -1,15 +1,17 @@
-.press{
-    background-color: cadetblue;
-}
+
 .press h1{
     font-size: 70px;
 }
 img#foto{
-    width:50%; 
-    height:100%; 
-    margin:2em auto ; 
-    border-radius:50px;
+    width:290px; 
+    max-height: 80%;
+    margin:3em auto ; 
+    border-radius:10px;
 }
+.nav#navegacion{
+    justify-items: center;
+}
+
 body {
     background-color: white;
     width: 100%;
@@ -26,4 +28,27 @@ img#icon {
     border-radius: 92.5px;
 
 
+}
+.header .nav-links a {
+    font-size: 20px;
+    color: black;
+    
+}
+.header .nav-links a:hover {
+    color: #bc4209;
+}
+div#containerB{
+    margin-top: 150px;
+    margin-left: 120px;
+
+    display: flexbox;
+}
+.titulos{
+    align-items: center;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    
+    text-decoration: solid underline rgb(128, 0, 23) 5px;
+    padding: 2px;
 }
